@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    
+    <h1>HTML Semântico</h1>
+
+    <p>Este é um <strong>projeto simples</strong> feito com HTML básico para praticar as principais <i>tags semânticas</i>. O objetivo é entender como <u>cada elemento</u> contribui para a <mark>estrutura do conteúdo</mark> e melhora a acessibilidade. <abbr title="Search Engine Optimization">SEO</abbr> é otimização para mecanismos de busca, e o uso correto de HTML ajuda nisso.</p>
+
+    <hr>
+
+    <h3 id="voltar">Lista de Tarefas</h3>
+    <ul>
+        <a href="#semantico">
+            <li>O que é HTML Semântico?<small>(tags com significado)</small></li>
+        </a>
+        
+        <a href="#tagsbasicas">
+            <li>HTML Semântico com <u>tags básicas</u></li>
+        </a>
+        
+        <a href="#comuns">
+            <li>Tags Semânticas Comuns <sub>(estrutura)</sub></li>
+        </a>
+        <a href="#formataçao">
+            <li>Tags Básicas de Formatação como <i>&lt;p&gt;</i>, <i>&lt;strong&gt;</i>, <i>&lt;mark&gt;</i><sup>(aparência)</sup></li>
+        </a>
+    </ul>
+
+    <h2 id="semantico"> O que é HTML Semântico?</h2>
+
+    <a href="#voltar"><small>(Voltar)</small></a>
+
+    <p>HTML semântico significa usar tags que têm significado, ou seja, que dizem ao navegador e aos leitores (inclusive leitores de tela) qual é o papel daquele conteúdo. Isso ajuda na <mark>acessibilidade</mark>, <abbr title="Search Engine Optimization">SEO</abbr> e na <u>organização do código</u>. Por exemplo, usar <code>&lt;article&gt;</code> para uma notícia é mais apropriado do que usar apenas uma <code>&lt;div&gt;</code>.</p>
+
+    <h2 id="tagsbasicas">HTML Semântico com Tags Básicas</h2>
+    <a href="#voltar"><small>(Voltar)</small></a>
+    
+    <p>HTML semântico é uma forma de escrever o código HTML usando <strong>tags com significado</strong>, 
+    que ajudam a <sub>organizar melhor o conteúdo da página</sub>, melhorando a acessibilidade e o SEO. Um bom exemplo é usar a tag <font color="blue">&lt;header&gt;</font> para definir o topo do site. <del>Evite usar apenas &lt;div&gt; para tudo</del>, prefira tags específicas sempre que possível.</p>
+
+    
+        <h2 id="comuns">Tags Semânticas Comuns</h2>
+        <a href="#voltar"><small>(Voltar)</small></a>
+        <table border="1" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Função</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Define o cabeçalho da página ou de uma seção. Pode conter título, logo e menus.</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>Cria uma área de navegação (menus). Exemplo: <a href="#">Menu principal</a></td>
+                </tr>
+                <tr>
+                    <td>&lt;main&gt;</td>
+                    <td>Delimita o conteúdo principal, como artigos, seções e informações relevantes.</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Seções temáticas dentro do conteúdo. Por exemplo: <mark>Sobre nós</mark>, <mark>Serviços</mark>.</td>
+                </tr>
+                <tr>
+                    <td>&lt;article&gt;</td>
+                    <td>Conteúdo independente, como postagens ou notícias. <blockquote>"Este artigo é um exemplo."</blockquote></td>
+                </tr>
+                <tr>
+                    <td>&lt;aside&gt;</td>
+                    <td>Conteúdo complementar (ex: barra lateral com links ou informações extras).</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Rodapé da página, geralmente contém direitos autorais, contatos ou links adicionais.</td>
+                </tr>
+            </tbody>
+        </table>
+    
+
+    
+        <h2 id="formataçao">Tags Básicas de Formatação</h2>
+        <a href="#voltar"><small>(Voltar)</small></a>
+        <table border="1" cellpadding="8">
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Uso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>&lt;h1&gt; a &lt;h6&gt;</td><td>Títulos em diferentes níveis hierárquicos. Ex: <h4>Título de nível 4</h4></td></tr>
+                <tr><td>&lt;p&gt;</td><td>Parágrafos. Ex: <p>Este é um parágrafo explicativo.</p></td></tr>
+                <tr><td>&lt;strong&gt;</td><td>Texto em negrito com ênfase. Ex: <strong>Importante!</strong></td></tr>
+                <tr><td>&lt;i&gt;</td><td>Texto em itálico. Ex: <i>Exemplo de ênfase leve</i></td></tr>
+                <tr><td>&lt;u&gt;</td><td>Texto sublinhado. Ex: <u>Texto destacado</u></td></tr>
+                <tr><td>&lt;mark&gt;</td><td>Texto marcado. Ex: <mark>Palavra-chave</mark></td></tr>
+                <tr><td>&lt;small&gt;</td><td>Texto menor. Ex: <small>Nota de rodapé</small></td></tr>
+                <tr><td>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</td><td>Listas. Exemplo: <ol><li>Item 1</li><li>Item 2</li></ol></td></tr>
+                <tr><td>&lt;a&gt;</td><td>Links. Ex: <a href="https://www.google.com" target="_blank">Google</a></td></tr>
+                <tr><td>&lt;blockquote&gt;</td><td>Citação. Ex: <blockquote>"Citação importante."</blockquote></td></tr>
+                <tr><td>&lt;sub&gt;, &lt;sup&gt;</td><td>Texto subscrito (H<sub>2</sub>O) e sobrescrito (10<sup>2</sup>)</td></tr>
+                <tr><td>&lt;del&gt;</td><td>Texto excluído. Ex: <del>Texto removido</del></td></tr>
+                <tr><td>&lt;abbr&gt;</td><td>Abreviação. Ex: <abbr title="Cascading Style Sheets">CSS</abbr></td></tr>
+                <tr><td>&lt;hr&gt;</td><td>Linha de separação. Ex: <hr></td></tr>
+            </tbody>
+        </table>
+    
+
+    <footer>
+        <hr>
+        <p><small><mark>Criado para fins de prática e estudo de HTML.</mark></small> Veja mais sobre <font color="green">HTML moderno</font> nos cursos online gratuitos.</p>
+    </footer>
+</body>
+</html>
